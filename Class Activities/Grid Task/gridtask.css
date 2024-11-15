@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+    
+  }
+  
+  h2 {
+    margin-top: 40px;
+    color: #fff;
+  }
+  
+  /* Task 1: Two-Column Layout */
+  .two-column-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #dfd7e4;
+  }
+  
+  .sidebar {
+    background-color: #22013b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+  }
+  
+  .main-content {
+    background-color: #520606;
+    padding: 20px;
+    border: 1px solid #ffffff;
+  }
+  
+  /* Task 2: Responsive Photo Grid */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Task 3: Dashboard Interface */
+  .dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+  }
+  
+  .header {
+    grid-column: 1 / -1;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .widget {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Task 4: Product Page */
+  .product-page {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+  }
+  
+  .product-info {
+    background-color: rgb(75, 8, 8); /* Box color */
+    padding: 10px; /* Space between text and box edges */
+    display: inline-block; /* Ensures the box fits the text size */
+    border-radius: 5px; /* Optional: to make rounded corners */
+    color: rgb(255, 252, 252); /* Text color */
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    
+    grid-template-rows: auto auto auto 1fr;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: rgb(196, 146, 146);
+    font-size: 50px;
+  }
+  
+  /* Task 5: CSS Grid Quiz Layout */
+  .quiz-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+  }
+  
+  .question {
+    font-size: 20px;
+    color: #dfd7e4;
+  }
+  
+  .answer-choices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: #fff;
+  }
+  
+  .choice {
+    background-color: #571818;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  

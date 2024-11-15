@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/*grid container*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+    padding: 200px;
+}
+
+/* width and height of imges in the grid */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
