@@ -183,8 +183,8 @@ main {
     object-fit: fill;
   }
   .desc {
-    justify-content: space-between;
-    flex-grow: 1;
+    flex-direction: column;
+  
   }
   .desc p {
     margin: 0;
@@ -192,8 +192,9 @@ main {
   }
 
   .desc button {
-    display: flex;
     font-size: 2em;
+    padding: auto;
+    flex-direction: row;
   }
 }
 
